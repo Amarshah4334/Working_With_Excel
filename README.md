@@ -12,11 +12,14 @@ The dataset for various crowdfunding campaigns is tracked using several details 
 
 ### Analysis of Outcomes Based on Launch Date
 The dataset for various crowdfunding campaigns is tracked using several details like financial goals, pledges, launch dates, number of backers, average donations and if the campaign was successful or not. This information provided insight that there were certain campains that were successful while come failed. The idea behind creating this analysis is that the new organised dataset will tell her a story such that will assist in understanding what she can focus on to make her campaign successful. This dataset will focus on 2 definitive details – 1. Analysis of outcomes based on Launch Date and 2. Analysis of Outcomes based on Goals
+![outcomes based on Launch Date](Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
 In this we will present an analysis of outcomes of crowdfunding data based on Goals using the criteria of the percentage of successful, failed and cancelled “Plays”. To do this we first broke down the monetary value of the goal in ranges to see the data per section, most of the ranges are in increments of ~ $5000 with the exception of the first 2 ranges. In doing this we will compare the dollar value on X-axis and outcomes [successful, failed or cancelled] on Y-axis.
 The represented data now shows that 84% of the plays have a goal of less than $10,000 also majority of successful plays {76%} have a fundraising goals of $4,999 or below. But if the fundraising goal is higher than $15000 there is a 50% chance to fail compared to 27% failure rates if the goal is below $5000. Interstingly there are no canceled campaigns in the plays subcategory.
+![Outcomes Based on Goals](Outcomes_vs_Goals.png)
+
 
 ### Challenges and Difficulties Encountered
 Challenges in Analysis of outcomes based on Launch Date-Preparing the data was challenging in relation to the Pivot table where it was important to get an understanding of what data parameters should be placed where to get a appearance of the data visual aid [Line Graph] that can be understood with ease. For when adding date created if I wanted to just see the data organised by months I had to eliminate years from the rows.
